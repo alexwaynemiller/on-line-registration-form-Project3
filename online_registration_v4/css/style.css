@@ -18,6 +18,25 @@ main {
     margin: 1rem;
 }
 
+.form-title {
+    display: flex;
+    justify-content: center;
+}
+
+.form-description {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+
+#signup {
+    width: 50%;
+    margin: 0 auto;
+}
+
+p {
+    width: 50%;
+}
 .contact-info {
     display: flex;
     flex-direction: column;
