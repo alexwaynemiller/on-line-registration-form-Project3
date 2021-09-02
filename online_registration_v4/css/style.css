@@ -22,12 +22,13 @@ main {
     display: flex;
     justify-content: center;
 }
-
+                                    
+/* not sure if this is the best way *see below* */
 .form-description {
     display: flex;
     flex-direction: column;
     margin-left: auto;
-}
+} 
 
 #signup {
     width: 50%;
