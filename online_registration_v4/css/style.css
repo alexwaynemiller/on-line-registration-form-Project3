@@ -14,3 +14,7 @@ body {
 /* Main Styles --------------------------------------------------------------- */
 
 
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
