@@ -111,12 +111,15 @@ h2 {
     ;
 }
 
-.btn {
+button {
     width: 100%;
     margin-top: 1em;
-    padding: .5rem 0;
+    padding: 1.5rem 0;
     background-color: #4cbbb4;
     border-radius: .25em;
+    font-size: 1.5rem;
+    font-family: 'Roboto Slab', serif;
+    border: none;
 }
 
 .btn-cta {
@@ -129,19 +132,8 @@ h2 {
 }
 
 
-/* possibly delete the code below this comment? */
 
-.select {
-    width: 100%;
-    min-width: 15ch;
-    max-width: 30ch;
-    border: 1px solid var();
-    border-radius: 0.25em;
-    padding: 0.25em 0.5em;
-    font-size: 1.25rem;
-    cursor: pointer;
-    line-height: 1.1;
-    background-color: rgb(150, 94, 94);
+
 
 
 
