@@ -9,6 +9,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Roboto Slab', serif;
     
 }
 
@@ -35,15 +36,24 @@ main {
 } 
 
 #signup {
-    width: 50%;
+    width: 100%;
     margin: 0 auto;
+    align-self: center;
 }
 
-p {
-    width: 50%;
+.sign-p {
+    width: 100%;
 }
 .contact-info {
     display: flex;
     flex-direction: column;
    
+}
+
+#break-1 {
+border-bottom: 5px solid darkblue;
+}
+
+#break-2 {
+border-bottom: 2px solid darkblue;
 }
