@@ -89,7 +89,7 @@ label, .news-p {
     color: #919da9
     ;
 }
-input {
+input, textarea, select {
     background-color: #eff0f1;
     border: none;
     border-radius: .25em;
@@ -121,16 +121,27 @@ h2 {
 
 .btn-cta {
     text-align: center;
-    color: white;
-    
+    color: white; 
+}
+
+#zip {
+    width: 50%;
 }
 
 
+/* possibly delete the code below this comment? */
 
-
-
-
-
+.select {
+    width: 100%;
+    min-width: 15ch;
+    max-width: 30ch;
+    border: 1px solid var();
+    border-radius: 0.25em;
+    padding: 0.25em 0.5em;
+    font-size: 1.25rem;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: rgb(150, 94, 94);
 
 
 
