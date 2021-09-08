@@ -52,12 +52,10 @@ main {
 }
 
 #break-1 {
-border-bottom: 5px solid #2d3945
-e;
+border-bottom: 5px solid #2d3945;
 margin-bottom: .25rem;
 }
 
 #break-2 {
-border-bottom: 2px solid #2d3945
-;
+border-bottom: 2px solid #2d3945;
 }
