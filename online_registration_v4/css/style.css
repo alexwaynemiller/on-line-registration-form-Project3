@@ -45,6 +45,8 @@ main {
 .sign-p {
     width: 100%;
     text-align: center;
+    color: #c9cdcf
+    ;
 }
 .contact-info {
     display: flex;
@@ -55,8 +57,45 @@ main {
 #break-1 {
 border-bottom: 5px solid #2d3945;
 margin-bottom: .25rem;
+margin-top: 1rem;
 }
 
 #break-2 {
 border-bottom: 2px solid #2d3945;
 }
+
+label {
+    font-weight: lighter;
+    color: #919da9
+    ;
+}
+
+h2 {
+    color: #2d3945
+    ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
