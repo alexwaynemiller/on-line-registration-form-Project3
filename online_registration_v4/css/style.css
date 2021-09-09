@@ -158,15 +158,13 @@ legend {
     color: #bbc0c3;
 }
 
-::placeholder {
+::placeholder, #state {
     text-align: end;
     font-family: 'Roboto Slab', serif;
     font-style: italic;
     font-weight: lighter;
-
+    color: #bbc0c3;
 }
 
 
 
-
-/* test hover button code */
