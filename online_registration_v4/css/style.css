@@ -37,8 +37,7 @@ main {
 .form-title {
     display: flex;
     justify-content: center;
-    background-color: #2d3945
-    ;
+    background-color: #2d3945;
     margin-top: 0;
     padding: 1rem 0;
     color: white;
@@ -101,14 +100,13 @@ input, textarea, select {
     align-items: center;
 }
 
-format {
+.format {
     display: flex;
     flex-direction: column;
 }
 
 h2 {
-    color: #2d3945
-    ;
+    color: #2d3945;
 }
 
 button {
@@ -120,6 +118,8 @@ button {
     font-size: 1.5rem;
     font-family: 'Roboto Slab', serif;
     border: none;
+    cursor: pointer;
+    
 }
 
 .btn-cta {
@@ -133,22 +133,20 @@ button {
 
 
 
+button :hover {
+   transform: scaleX(0.3deg);
+}
 
 
+fieldset {
+    border: none;
+    display: flex;
+    flex-direction: column;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+legend {
+    color: #2d3945;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.5rem;
+}
+/* test hover button code */
