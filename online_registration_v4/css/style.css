@@ -149,4 +149,16 @@ legend {
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
 }
+
+
+.copyright {
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    color: #bbc0c3;
+}
+
+
+
+
 /* test hover button code */
