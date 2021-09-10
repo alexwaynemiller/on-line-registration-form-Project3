@@ -98,6 +98,11 @@ input, textarea, select {
 .news-checkbox {
     display: flex;
     align-items: center;
+    
+}
+
+.news-checkbox label {
+    padding-left: 1rem;
 }
 
 .format {
@@ -167,7 +172,7 @@ legend {
    
 }
 .contact-info {
-    padding: 50px 50px 35px 50px;
+    padding: 0px 50px 35px 50px;
   }
 .contact-info label {
     margin-bottom: 10px;
@@ -176,6 +181,11 @@ legend {
   .contact-info input {
     height: 50px;
     margin-bottom: 15px;
+  }
+
+  .head {
+      padding-bottom: 1rem;
+      padding-top: 2em;
   }
 
 /* MEDIA QUERIES ---------------------------------------- */
