@@ -132,16 +132,11 @@ button {
 }
 
 
-
-button :hover {
-   transform: scaleX(0.3deg);
-}
-
-
 fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+    
 }
 
 legend {
@@ -166,5 +161,37 @@ legend {
     color: #bbc0c3;
 }
 
+.contact-divs {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* MEDIA QUERIES ---------------------------------------- */
+
+@media screen and (min-width: 768px) {
+    
+    #zip {
+        width: 25%;
+        align-self: flex-start;
+      
+    }
 
 
+    fieldset {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contact-divs input, select {
+       width: 75%;
+       margin-left: auto;
+    }
+    
+        
+   
+  
+    
+
+
+}
