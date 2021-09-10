@@ -10,7 +10,8 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Roboto Slab', serif;
-    
+    max-width: 1024px;
+    background-color: snow;
 }
 
 select {
@@ -76,6 +77,7 @@ margin-top: 1rem;
 
 #break-2 {
 border-bottom: 2px solid #2d3945;
+margin-boottom: 10em ;
 }
 
 #break-3 {
@@ -85,8 +87,8 @@ border-bottom: 2px solid #2d3945;
 
 label, .news-p {
     font-weight: lighter;
-    color: #919da9
-    ;
+    color: #919da9;
+    margin-top: 0;
 }
 input, textarea, select {
     background-color: #eff0f1;
@@ -130,6 +132,11 @@ button {
 .btn-cta {
     text-align: center;
     color: white; 
+    transition: all 0.3s ease;
+}
+
+.btn-cta:hover {
+    background-color: rgb(48, 121, 126);
 }
 
 #zip {
@@ -141,6 +148,7 @@ fieldset {
     border: none;
     display: flex;
     flex-direction: column;
+  
     
 }
 
@@ -148,6 +156,7 @@ legend {
     color: #2d3945;
     font-family: 'Roboto Slab', serif;
     font-size: 1.5rem;
+    
 }
 
 
@@ -178,15 +187,21 @@ legend {
     margin-bottom: 10px;
   }
   ​
-  .contact-info input {
-    height: 50px;
-    margin-bottom: 15px;
+    
+  .contact-flex {
+      margin-top: 1rem;
+  }
+  
+  #head {
+      padding: 1rem 0;
+      
   }
 
-  .head {
-      padding-bottom: 1rem;
-      padding-top: 2em;
+  .news-head {
+      padding-bottom: .5rem;
+        
   }
+  
 
 /* MEDIA QUERIES ---------------------------------------- */
 
@@ -213,6 +228,8 @@ legend {
         height: 50px;
         margin: auto 0;
         padding-top: 1rem;
+        color: #2d3945
+        ;
       }
 
       #zip {
