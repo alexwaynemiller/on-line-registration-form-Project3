@@ -178,9 +178,9 @@ legend {
     }
 
 
-    fieldset {
+    fieldset .contact-divs{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
 
     .contact-divs input, select {
