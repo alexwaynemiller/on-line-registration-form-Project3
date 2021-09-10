@@ -23,7 +23,7 @@
         <div id="break-1"></div>
         <div id="break-2"></div>
         
-     <!-- Form Markup ------------------------->
+     <!-- Form Markup -->
      <div class="form">
         <form class="contact-info">
             <fieldset class="contact-flex">
@@ -31,12 +31,12 @@
              <div class="contact-divs">
                 
                 <label for="your-name">Full Name</label>
-                <input type="text" placeholder="Required" id="your-name" name="your-name">
+                <input type="text" placeholder="Required" id="your-name" name="your-name" required>
              </div>
 
               <div class="contact-divs">        
                 <label for="email">Email Address</label>
-                <input type="email" placeholder="Required" id="email" name="email">
+                <input type="email" placeholder="Required" id="email" name="email" required>
             </div>
 
              <div class="contact-divs">
@@ -101,7 +101,7 @@
 
              <label id="topics" class="news-p">Other topics you'd like to hear about</label>
 
-             <textarea id="more-topics" placeholder="What would you like to hear about?" name="topics"></textarea>
+             <textarea id="more-topics" for="topics" placeholder="What would you like to hear about?" name="topics"></textarea>
 
              <button type="submit" class="btn-cta ">Sign Up</button>
         </form>

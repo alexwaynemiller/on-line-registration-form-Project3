@@ -94,6 +94,10 @@ input, textarea, select {
     border: none;
     border-radius: .25em;
     padding: 1.5rem;
+    opacity: .6;
+    transition: .3s ease-in-out;
+    
+    
 }
 
 .news-checkbox {
@@ -171,7 +175,7 @@ legend {
     font-family: 'Roboto Slab', serif;
     font-style: italic;
     font-weight: lighter;
-    color: #bbc0c3;
+    color: #2a2d2e;
 }
 
 .contact-divs {
@@ -202,10 +206,12 @@ legend {
   }
 
   input:focus, select:focus, textarea:focus, input:hover, select:hover, textarea:hover {
-      background-color: rgb(220, 239, 245);
-      outline: 2px auto rgb(57, 70, 97);
+      background-color: rgb(150, 180, 189);
+      /* outline: 2px auto rgb(57, 70, 97); */
+      opacity: 1;
   }
- 
+
+  
 /* MEDIA QUERIES ---------------------------------------- */
 
 @media screen and (min-width: 768px) {
