@@ -77,7 +77,6 @@ margin-top: 1rem;
 
 #break-2 {
 border-bottom: 2px solid #2d3945;
-margin-boottom: 10em ;
 }
 
 #break-3 {
@@ -88,7 +87,7 @@ margin-boottom: 10em ;
 label, .news-p {
     font-weight: lighter;
     color: #919da9;
-    margin-top: 0;
+    /* margin-top: 0; */
 }
 input, textarea, select {
     background-color: #eff0f1;
@@ -180,9 +179,7 @@ legend {
     flex-direction: column;
    
 }
-.contact-info {
-    padding: 0px 50px 35px 50px;
-  }
+
 .contact-info label {
     margin-bottom: 10px;
   }
@@ -194,12 +191,12 @@ legend {
   
   #head {
       padding: 1rem 0;
-      
+      padding-bottom: 0;
   }
 
   .news-head {
       padding-bottom: .5rem;
-        
+
   }
   
 
