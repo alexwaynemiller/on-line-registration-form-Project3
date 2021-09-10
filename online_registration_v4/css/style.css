@@ -199,7 +199,9 @@ legend {
 
   }
   
-
+  #topics {
+      margin-bottom: 1rem;
+  }
 /* MEDIA QUERIES ---------------------------------------- */
 
 @media screen and (min-width: 768px) {
