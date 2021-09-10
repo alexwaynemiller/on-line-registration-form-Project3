@@ -166,16 +166,23 @@ legend {
     flex-direction: column;
    
 }
+.contact-info {
+    padding: 50px 50px 35px 50px;
+  }
+.contact-info label {
+    margin-bottom: 10px;
+  }
+  ​
+  .contact-info input {
+    height: 50px;
+    margin-bottom: 15px;
+  }
 
 /* MEDIA QUERIES ---------------------------------------- */
 
 @media screen and (min-width: 768px) {
     
-    #zip {
-        width: 25%;
-        align-self: flex-start;
-      
-    }
+   
 
 
     fieldset .contact-divs{
@@ -186,10 +193,23 @@ legend {
     .contact-divs input, select {
        width: 75%;
        margin-left: auto;
+       flex-grow: 1;
+       margin: 1em 0;
     }
     
         
-   
+    .contact-info label {
+        flex-basis: 25%;
+        height: 50px;
+        margin: auto 0;
+        padding-top: 1rem;
+      }
+
+      #zip {
+        max-width: 25%;
+    }
+      
+      
   
     
 
